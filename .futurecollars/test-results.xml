@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="1" time="2.493">
+  <testsuite name="Funkcja filterItems" errors="0" failures="1" skipped="0" timestamp="2021-04-18T18:09:39" time="1.382" tests="2">
+    <testcase classname="Funkcja filterItems powinna zwrócić tablicę" name="Funkcja filterItems powinna zwrócić tablicę" time="0.002">
+    </testcase>
+    <testcase classname="Funkcja filterItems powinna zwrócić tylko jedna tablicę z liczbami dodatnimi" name="Funkcja filterItems powinna zwrócić tylko jedna tablicę z liczbami dodatnimi" time="0.004">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 5
++ Received  + 2
+
+  Array [
+-   1,
+-   1,
+-   1,
+-   1,
+-   1,
++   2,
++   2,
+  ]
+    at Object.&lt;anonymous&gt; (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-04-p\tests\test.js:11:44)
+    at Object.asyncJestTest (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-04-p\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-04-p\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-04-p\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\Pjoter\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-03-04-p\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
